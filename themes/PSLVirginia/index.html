@@ -81,7 +81,7 @@
         {% for item in links %}
           {% assign link = item.link %}
           <a href="{{ link.url }}" target="{{ link.target }}" class="link-button" alt="{{ link.alt }}" title="{{ link.title }}">
-            <i class="{{ link.icon }}"></i> {{ link.text }}
+            <i class="{{ link.icon }}"></i> <div class="link-button-text">{{ link.text }}</div>
           </a>
         {% endfor %}
       </div>

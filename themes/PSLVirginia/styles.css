@@ -129,6 +129,13 @@ a {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 25px rgba(255, 255, 255, 0.7), 0 0 35px rgba(255, 255, 255, 0.5);
 }
 
+.link-button-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;           /* takes remaining width, text stays left-aligned */
+  /*gap: 4px;          /* optional: space between the two lines */
+}
+
 .footer {
   margin-top: 40px;
   font-size: 14px;
@@ -176,11 +183,6 @@ a {
 
 .icon-button:active {
   transform: scale(1.05);
-}
-
-.link-button-text {
-  font-size: 14px;
-  color: var(--color-primary);
 }
 
 .copyright {
