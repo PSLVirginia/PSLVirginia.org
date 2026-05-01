@@ -41,7 +41,7 @@ plugins:
           es: "Solicita organizar el día a día con nosotros"
           zh: "申请与我们一起安排日常生活"
         PAN:
-          en: "Join the PSL Action Network to Stay Connected and Support Us!"
+          en: "Join the PSL Action Network! </br> <sub>Financially Support the PSL Nationwide and Receive Stickers, Posters, etc</sub>"
           es: "¡Únete a la Red de Acción del PSL para mantenerte conectado y apoyarnos!"
           zh: "加入PSL行动网络，保持联系并支持我们！"
 
@@ -91,6 +91,13 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
+      icon: "fa-solid fa-flag"
+      text: "May Day is Just the Beginning </br> <sub>Sign Up to Build the Movement Against Trump & the Billionaires' Agenda</sub>"
+      url: "https://www2.pslweb.org/mayday"
+      alt: "MayDay"
+      title: "MayDay"
+      target: "_blank"
+  - link:
       icon: "fa-brands fa-instagram"
       text: "{{vars.I18n['Instagram']}}"
       url: "https://www.instagram.com/pslvirginia"
@@ -126,11 +133,18 @@ links:
       title: "Apply to Join"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-hand-holding-hand"
-      text: "{{vars.I18n['PAN']}}"
+      icon: "fa-solid fa-hands-holding-circle"
+      text: "Join the PSL Action Network! </br> <sub>Financially Support the PSL Nationwide and Receive Stickers, Art, and Communications</sub>"
       url: "https://www2.pslweb.org/action"
       alt: "Join the PSL Action Network"
       title: "Join the PAN"
+      target: "_blank"
+  - link:
+      icon: "fa-solid fa-hand-holding-heart"
+      text: "Donate to the Richmond Liberation Center </br> <sub>Financially Support the PSL Locally</sub>"
+      url: "https://rvaliberation.com/support"
+      alt: "Donate to the Richmond Liberation Center"
+      title: "Donate to the RLC"
       target: "_blank"
 
 
