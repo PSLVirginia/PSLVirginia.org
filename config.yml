@@ -91,13 +91,6 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-solid fa-flag"
-      text: "May Day is Just the Beginning </br> <sub>Sign Up to Build the Movement Against Trump & the Billionaires' Agenda</sub>"
-      url: "https://www2.pslweb.org/mayday"
-      alt: "MayDay"
-      title: "MayDay"
-      target: "_blank"
-  - link:
       icon: "fa-brands fa-instagram"
       text: "{{vars.I18n['Instagram']}}"
       url: "https://www.instagram.com/pslvirginia"
